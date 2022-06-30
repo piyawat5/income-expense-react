@@ -1,0 +1,32 @@
+label {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+input {
+  border: 3px solid gainsboro;
+  border-radius: 0.8rem;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+.btn button {
+  width: 100%;
+  margin-top: 2.4rem;
+  transition: 0.3s;
+  border-radius: 0.8rem;
+
+  font-size: 16px;
+  padding: 0.5rem;
+}
+
+.btnActive:hover {
+  color: darkblue;
+  background-color: #fff;
+}
+.btnActive {
+  cursor: pointer;
+  border: 2px solid goldenrod;
+  background-color: darkblue;
+  color: aliceblue;
+}

@@ -1,0 +1,17 @@
+.transaction ul {
+  list-style: none;
+  padding: 1rem;
+}
+.transaction ul li {
+  cursor: pointer;
+  margin: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+.transaction ul li:hover {
+  transform: scale(1.1);
+}

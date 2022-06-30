@@ -1,0 +1,19 @@
+.report-container {
+  padding: 1.3rem 0rem;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.report-container div {
+  padding: 0rem 2rem;
+}
+.report-container div:first-child {
+  border-right: 3px solid rgb(239, 239, 239);
+}
+.text-plus p {
+  color: green;
+}
+.text-minus p {
+  color: red;
+}
